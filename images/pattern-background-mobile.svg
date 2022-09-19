@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="375" height="194"><path fill="#D6E1FF" fill-rule="evenodd" d="M-131.808 155.366c97.026 51.512 204.233 51.512 321.62 0 117.388-51.512 223.27-51.512 317.648 0V0h-639.268v155.366z"/></svg>
+{
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 375 194'%3E%3Cpath fill='%23D6E1FF' fill-rule='evenodd' d='M-131.8 155.37c97.02 51.5 204.23 51.5 321.61 0 117.39-51.52 223.27-51.52 317.65 0V0h-639.27v155.37z'/%3E%3C/svg%3E");
+}

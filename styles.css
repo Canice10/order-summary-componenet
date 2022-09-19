@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 437'%3E%3Cpath fill='%23D6E1FF' fill-rule='evenodd' d='M0 349.97c218.56 116.04 460.05 116.04 724.48 0s502.93-116.03 715.52 0V0H0v349.97z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 40em;
+    margin: calc(100% - 95%) auto 0.5em auto;
+    /*background-color: rgb(255, 255, 255);  foget this :) */
+}
+
+#image {
+    width: 440px; /*so i was finally able to scale this svg, getting a hang of this gradually🤩🤩 */
+}
+
+.text-page {
+    background-color: rgb(255, 255, 255);
+    width: 440px;
+    height: 100%;
+    padding: 40px;
+    text-align: center;
+    border-radius: 0 0 2em 2em;
+}
+
+#hero-image {
+    margin: 0%;
+    border-radius: 1.2em 1.2em 0 0;
+    /* object-fit: cover;      will come back to this later*/
+    display: block; /*this removed the extra space after the svg element, never been this glad*/
+}
+
+h1 {
+    font-weight: 900;
+    padding-bottom: 1em;
+}
+
+.header {
+    color: hsl(223, 47%, 23%);
+}
+
+.grey {
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+.description {
+    padding: 0 2em 1em 2em;
+}
+
+p {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+#plan {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    flex-direction: row;
+    height: 5em;
+    border-radius: 0.8em;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+    font-weight: 700;
+} 
+
+.payment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.price {
+    padding-top: 0.3em;
+}
+
+.container {
+    display: flex;
+    position: sticky;
+    margin-left: 8em;
+}
+
+#music-icon {
+    display: flex;
+    margin: 0 1em 0 -7em;
+}
+
+#change {
+    display: flex;
+    padding-right: -3em;
+    margin: 0 1em 0 7em;
+}
+
+button {
+    color: rgb(255, 255, 255);
+    background-color:hsl(245, 75%, 52%);
+    height: 3em;
+    border-style: none;
+    border-radius: 0.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.5em;
+    width: 100%;
+    font-weight: 700;
+    box-shadow: 0px 1px 15px hsl(245, 75%, 52%);
+}
+
+.cancel-order a {
+    font-weight: 700;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
+
+footer {
+    font-size: 0.7em;
+    text-align: center;
+    margin-top: 0%;
+}
+
+footer a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+  }
+
+  /*for mobile view*/
+
+@media (max-width: 520px) {
+    body {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 375 194'%3E%3Cpath fill='%23D6E1FF' fill-rule='evenodd' d='M-131.8 155.37c97.02 51.5 204.23 51.5 321.61 0 117.39-51.52 223.27-51.52 317.65 0V0h-639.27v155.37z'/%3E%3C/svg%3E");
+        max-width: 380px;
+    }
+
+    main {
+        height: 35em;
+        margin: calc(100% - 85%) auto 0.5em auto;
+    }
+
+    
+#image {
+    width: 330px;
+}
+
+.text-page {
+    width: 330px;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    padding: 1.6em;
+    font-size: 11px; /*really don't know why this keeps on displacing the whole layout😤🤦‍♂️🤦‍♂️*/
+}
+
+h1 {
+    font-size: 1.3rem;
+}
+
+.description {
+    padding: 0 0.8em 1.2em 0.8em;
+    line-height: 1.7em;
+}
+
+#plan {
+    height: 7em;
+    margin: 1.1em 0 2.5em 0;
+} 
+
+#music-icon {
+    height: 3.9em;
+}
+
+.annual {
+    font-weight: 700;
+    font-size: 1.4em; /*I really don't know why the font weight propeety isn't working for mobile view, any help?*/
+}
+
+.price {
+    font-size: 1.35em;
+}
+
+#change {
+    font-weight: 700;
+    font-size: 1.3em;
+    padding-right: 1em;
+    margin: 0 0 0 5em;
+}
+
+.cancel-order {
+    font-size: 1.4em;
+}
+}
