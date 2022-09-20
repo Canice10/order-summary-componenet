@@ -17,6 +17,10 @@ body {
     overflow: hidden;
 }
 
+#full-page {
+    margin-top: 3em;
+}
+
 main {
     display: flex;
     justify-content: center;
@@ -151,59 +155,62 @@ footer a {
         max-width: 380px;
     }
 
+    #full-page {
+        margin-top: 3.3em;
+    }
+
     main {
         height: 35em;
         margin: calc(100% - 85%) auto 0.5em auto;
     }
 
-    
-#image {
-    width: 330px;
-}
+    #image {
+        width: 330px;
+    }
 
-.text-page {
-    width: 330px;
-    background-color: rgb(255, 255, 255);
-    height: 100%;
-    padding: 1.6em;
-    font-size: 11px; /*really don't know why this keeps on displacing the whole layout😤🤦‍♂️🤦‍♂️*/
-}
+    .text-page {
+        width: 330px;
+        background-color: rgb(255, 255, 255);
+        height: 100%;
+        padding: 1.6em;
+        font-size: 11px; /*really don't know why this keeps on displacing the whole layout😤🤦‍♂️🤦‍♂️*/
+    }
 
-h1 {
-    font-size: 1.3rem;
-}
+    h1 {
+        font-size: 1.3rem;
+    }
 
-.description {
-    padding: 0 0.8em 1.2em 0.8em;
-    line-height: 1.7em;
-}
+    .description {
+        padding: 0 0.8em 1.2em 0.8em;
+        line-height: 1.7em;
+    }
 
-#plan {
-    height: 7em;
-    margin: 1.1em 0 2.5em 0;
-} 
+    #plan {
+        height: 7em;
+        margin: 1.1em 0 2.5em 0;
+    } 
 
-#music-icon {
-    height: 3.9em;
-}
+    #music-icon {
+        height: 3.9em;
+    }
 
-.annual {
-    font-weight: 700;
-    font-size: 1.4em; /*I really don't know why the font weight propeety isn't working for mobile view, any help?*/
-}
+    .annual {
+        font-weight: 700;
+        font-size: 1.4em; /*I really don't know why the font weight propeety isn't working for mobile view, any help?*/
+    }
 
-.price {
-    font-size: 1.35em;
-}
+    .price {
+        font-size: 1.35em;
+    }
 
-#change {
-    font-weight: 700;
-    font-size: 1.3em;
-    padding-right: 1em;
-    margin: 0 0 0 5em;
-}
+    #change {
+        font-weight: 700;
+        font-size: 1.3em;
+        padding-right: 1em;
+        margin: 0 0 0 5em;
+    }
 
-.cancel-order {
-    font-size: 1.4em;
-}
+    .cancel-order {
+        font-size: 1.4em;
+    }
 }
